@@ -2,3 +2,6 @@ mongodb:
   architecture: "replicaset"
   auth:
     enabled: false
+
+mongo-express:
+  mongodbServer: mongodb-0.mongodb-headless.mongodb
